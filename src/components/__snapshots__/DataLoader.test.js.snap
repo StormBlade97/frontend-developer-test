@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataLoader data fetching fetches and accumulates unique data entries 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "diff": Array [
+        Object {
+          "field": "name",
+          "newValue": "Bruce",
+          "oldValue": "John",
+        },
+      ],
+      "id": "e28d290a-a2f2-48c2-9001-ff43884e271b",
+      "timestamp": 1581631200000,
+    },
+    Object {
+      "diff": Array [
+        Object {
+          "field": "name",
+          "newValue": "Nick",
+          "oldValue": "Bruce",
+        },
+      ],
+      "id": "8bd0166f-f0c6-48fd-9fcd-a17e76eb1e92",
+      "timestamp": 1581717600000,
+    },
+  ],
+  "errorMessage": "",
+  "fetchState": "successful",
+  "sortDir": "asc",
+}
+`;
+
+exports[`DataLoader data fetching has correct default state 1`] = `
+Object {
+  "data": Array [],
+  "errorMessage": "",
+  "fetchState": "pending",
+  "sortDir": "asc",
+}
+`;
+
+exports[`DataLoader data fetching sorts newly fetched data 1`] = `
+Array [
+  Array [
+    "asc",
+  ],
+  Array [
+    "asc",
+  ],
+  Array [
+    "asc",
+  ],
+  Array [
+    "asc",
+  ],
+]
+`;
+
+exports[`DataLoader renders provides correct props to DataTable 1`] = `
+Object {
+  "columns": Array [
+    "Date",
+    "User id",
+    "Old value",
+    "New value",
+  ],
+  "errorMessage": "",
+  "fetchState": "pending",
+  "rows": Array [],
+  "sortBy": "Date",
+  "sortDirection": "asc",
+  "tableController": <TableControl
+    data-test="table-controller"
+    fetchData={[Function]}
+    fetchState="pending"
+  />,
+  "toggleSort": [Function],
+}
+`;
+
+exports[`DataLoader renders render DataTable 1`] = `
+"<Styled(MuiBox) data-test=\\"app-box\\" m={2}>
+  <DataTable errorMessage=\\"\\" fetchState=\\"pending\\" columns={{...}} sortBy=\\"Date\\" sortDirection=\\"asc\\" toggleSort={[Function]} rows={{...}} tableController={{...}} />
+</Styled(MuiBox)>"
+`;

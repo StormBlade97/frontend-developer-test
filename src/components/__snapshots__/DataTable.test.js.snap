@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable render renders 1`] = `
+"<WithStyles(ForwardRef(TableContainer)) component={{...}}>
+  <WithStyles(ForwardRef(Table)) aria-label=\\"simple table\\">
+    <WithStyles(ForwardRef(TableHead))>
+      <WithStyles(ForwardRef(TableRow))>
+        <WithStyles(ForwardRef(TableCell)) component=\\"th\\">
+          <WithStyles(ForwardRef(TableSortLabel)) active={true} direction=\\"asc\\" onClick={[undefined]}>
+            a
+          </WithStyles(ForwardRef(TableSortLabel))>
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell)) component=\\"th\\">
+          <WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"asc\\" onClick={[undefined]}>
+            b
+          </WithStyles(ForwardRef(TableSortLabel))>
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell)) component=\\"th\\">
+          <WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"asc\\" onClick={[undefined]}>
+            c
+          </WithStyles(ForwardRef(TableSortLabel))>
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell)) component=\\"th\\">
+          <WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"asc\\" onClick={[undefined]}>
+            d
+          </WithStyles(ForwardRef(TableSortLabel))>
+        </WithStyles(ForwardRef(TableCell))>
+      </WithStyles(ForwardRef(TableRow))>
+    </WithStyles(ForwardRef(TableHead))>
+    <WithStyles(ForwardRef(TableBody))>
+      <WithStyles(ForwardRef(TableRow))>
+        <WithStyles(ForwardRef(TableCell))>
+          2020-12-01
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          1
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          old
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          new
+        </WithStyles(ForwardRef(TableCell))>
+      </WithStyles(ForwardRef(TableRow))>
+      <WithStyles(ForwardRef(TableRow))>
+        <WithStyles(ForwardRef(TableCell))>
+          2020-12-02
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          2
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          old
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          new
+        </WithStyles(ForwardRef(TableCell))>
+      </WithStyles(ForwardRef(TableRow))>
+      <WithStyles(ForwardRef(TableRow))>
+        <WithStyles(ForwardRef(TableCell)) align=\\"center\\" colSpan={4}>
+          Controller
+        </WithStyles(ForwardRef(TableCell))>
+      </WithStyles(ForwardRef(TableRow))>
+    </WithStyles(ForwardRef(TableBody))>
+  </WithStyles(ForwardRef(Table))>
+</WithStyles(ForwardRef(TableContainer))>"
+`;
+
+exports[`DataTable sort feature pass toggleSort callback to underlying TableSortLabel 1`] = `Array []`;
+
+exports[`DataTable sort feature renders asc sort arrow 1`] = `
+"<WithStyles(ForwardRef(TableSortLabel)) active={true} direction=\\"desc\\" onClick={[undefined]}>
+  a
+</WithStyles(ForwardRef(TableSortLabel))>
+
+
+<WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"desc\\" onClick={[undefined]}>
+  b
+</WithStyles(ForwardRef(TableSortLabel))>
+
+
+<WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"desc\\" onClick={[undefined]}>
+  c
+</WithStyles(ForwardRef(TableSortLabel))>
+
+
+<WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"desc\\" onClick={[undefined]}>
+  d
+</WithStyles(ForwardRef(TableSortLabel))>"
+`;
+
+exports[`DataTable sort feature renders desc sort arrow 1`] = `
+"<WithStyles(ForwardRef(TableSortLabel)) active={true} direction=\\"desc\\" onClick={[undefined]}>
+  a
+</WithStyles(ForwardRef(TableSortLabel))>
+
+
+<WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"desc\\" onClick={[undefined]}>
+  b
+</WithStyles(ForwardRef(TableSortLabel))>
+
+
+<WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"desc\\" onClick={[undefined]}>
+  c
+</WithStyles(ForwardRef(TableSortLabel))>
+
+
+<WithStyles(ForwardRef(TableSortLabel)) active={false} direction=\\"desc\\" onClick={[undefined]}>
+  d
+</WithStyles(ForwardRef(TableSortLabel))>"
+`;

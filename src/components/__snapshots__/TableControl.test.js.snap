@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableControl renders when fetch error should render 1`] = `
+<ForwardRef(StyledComponent)
+  p={1}
+>
+  <ForwardRef(StyledComponent)
+    m={1}
+  >
+    <ForwardRef(WithStyles)
+      color="error"
+    >
+      We had problems fetching your data. Please try again
+    </ForwardRef(WithStyles)>
+  </ForwardRef(StyledComponent)>
+  <ForwardRef(WithStyles)
+    color="primary"
+    onClick={[MockFunction]}
+    variant="contained"
+  >
+    Retry
+  </ForwardRef(WithStyles)>
+</ForwardRef(StyledComponent)>
+`;
+
+exports[`TableControl renders when fetching should render 1`] = `
+<ForwardRef(StyledComponent)
+  p={1}
+>
+  <ForwardRef(WithStyles) />
+</ForwardRef(StyledComponent)>
+`;
+
+exports[`TableControl renders when under other fetch state should render only button 1`] = `
+<ForwardRef(StyledComponent)
+  p={1}
+>
+  <ForwardRef(WithStyles)
+    color="primary"
+    onClick={[MockFunction]}
+    variant="contained"
+  >
+    Load more
+  </ForwardRef(WithStyles)>
+</ForwardRef(StyledComponent)>
+`;
